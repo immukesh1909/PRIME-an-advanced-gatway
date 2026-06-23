@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Shield, Terminal, AlertTriangle, ShieldCheck, EyeOff, Lock, Fingerprint, Activity } from 'lucide-react';
+import React, { useState } from 'react';
+import { Shield, Terminal, ShieldCheck, EyeOff, Fingerprint, Activity } from 'lucide-react';
 
 const INITIAL_LOGS = [
   { id: 1, time: '00:01:00', type: 'system', msg: 'Zero-Trust Gatekeeper activated. Policy: UNCOMPROMISING_ISOLATION.' },
